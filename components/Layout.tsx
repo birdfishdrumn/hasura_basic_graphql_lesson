@@ -1,7 +1,7 @@
-import React,{ReactNode, VFC} from 'react'
-import Head from "next/head";
-import Link from "next/link"
-import Image from "next/image";
+import React,{ReactNode, VFC} from 'react';
+import Head from 'next/head';
+import Link from 'next/link';
+import Image from 'next/image';
 interface Props {
   children: ReactNode;
   title: string;
@@ -10,7 +10,7 @@ interface Props {
 export const Layout: VFC<Props> = (
   {
     children,
-    title="default"
+    title='default'
   }
 ) => {
   return (
@@ -92,5 +92,5 @@ export const Layout: VFC<Props> = (
       </footer>
       </div>
     </div>
-  )
-}
+  );
+};
